@@ -48,32 +48,34 @@ LuxeVista Interiors | Premium Design Excellence is a minimal, well-structured st
 
 These steps will get the project running locally in seconds.
 
-1. Clone the repository
+1. **Clone the repository**
 
 ```powershell
-git clone https://github.com/md-abu-kayser/riterio-studio.git
-cd riterio-studio
+git clone https://github.com/md-abu-kayser/LuxeVista-Interiors-Template.git
+
 ```
 
-2. Open `index.html` in your browser (double-click) or use a local server for a better dev experience.
-
-Run a simple local static server (recommended):
-
-```powershell
-# With Python 3 (PowerShell)
-python -m http.server 8000
-# Then open http://localhost:8000
-
-# Or use VS Code: install the Live Server extension and click "Go Live"
 ```
+cd LuxeVista-Interiors-Template
+
+```
+
+2. **github live page:**
+
+```
+https://md-abu-kayser.github.io/LuxeVista-Interiors-Template/
+
+```
+
+3. Open `index.html` in your browser (double-click) or use a local server for a better dev experience.
 
 ### Edit and extend
 
-- HTML: `index.html` - edit the page structure and content.
-- CSS: `css/style.css` - modify or extend styles.
-- Assets: `assets/` - put images, icons, and other static files here.
+- **HTML:** `index.html` - edit the page structure and content.
+- **CSS:** `css/style.css` - modify or extend styles.
+- **Assets:** `assets/` - put images, icons, and other static files here.
 
-Tips:
+**Tips:**
 
 - Keep component styles modular and prefixed if you copy styles into larger projects.
 - Add a `favicon.ico` in the repo root and meta tags in `index.html` for better UX and SEO.
@@ -85,15 +87,15 @@ Pick the provider you prefer - all work great with this static site.
 ### GitHub Pages (quick)
 
 1. Push your repository to GitHub.
-2. In the repository settings → Pages, set Source to `main` branch and root (`/`).
-3. Save - your site will be available at `https://<your-username>.github.io/<repo-name>/`.
+2. In the repository settings --> Pages, set Source to `main` branch and root (`/`).
+3. Save - your site will be available at `https://md-abu-kayser.github.io/LuxeVista-Interiors-Template/`.
 
-Notes: If your site is in the repository root and `index.html` exists, GitHub Pages will serve it automatically.
+**Notes:** If your site is in the repository root and `index.html` exists, GitHub Pages will serve it automatically.
 
 ### Netlify (drag and drop or git)
 
-- Drag-and-drop: Zip the repo root and drop it into the Netlify dashboard Sites → New site from Git → Deploy site (drag-and-drop).
-- Git-backed: Connect the GitHub repo in Netlify, select the branch, and deploy (no build command required).
+- **Drag-and-drop:** Zip the repo root and drop it into the Netlify dashboard Sites --> New site from Git --> Deploy site (drag-and-drop).
+- **Git-backed:** Connect the GitHub repo in Netlify, select the branch, and deploy (no build command required).
 
 ### Vercel
 
@@ -102,75 +104,61 @@ Notes: If your site is in the repository root and `index.html` exists, GitHub Pa
 ## Project structure
 
 ```
-.
-├─ index.html            # Main HTML file
-├─ LICENSE
-├─ README.md
-├─ assets/               # Images, icons, fonts, etc.
-└─ css/
-	 └─ style.css         # Main stylesheet
+assets/               # Images, icons, fonts, etc.
+index.html            # Main HTML file
+css/style.css         # Main stylesheet
+LICENSE
+README.md
+
 ```
 
-## Accessibility and SEO
+### Accessibility and SEO
 
 - Use semantic elements (`header`, `main`, `nav`, `footer`, `section`, `article`).
 - Provide `alt` attributes for all images in `assets/`.
 - Include meta tags for viewport, description, and Open Graph in `index.html`.
 - Use headings (`h1`..`h6`) in order and avoid skipping levels.
 
-Example meta snippet for `index.html`:
+---
 
-```html
-<meta name="viewport" content="width=device-width,initial-scale=1" />
-<meta
-  name="description"
-  content="Short, clear description of what Riterio Studio is."
-/>
-<meta property="og:title" content="Riterio Studio" />
-<meta
-  property="og:description"
-  content="Short description for social previews"
-/>
-<meta property="og:image" content="/assets/social-preview.png" />
-```
-
-## Performance tips
+### Performance tips
 
 - Serve compressed images (WebP or optimized JPEG/PNG).
 - Defer non-critical CSS and inline critical CSS if you need faster first paint.
 - Use responsive images (`srcset`) for different viewport sizes.
 - Remove unused CSS rules and keep selectors specific but minimal.
 
-## Tests and quality
-
-This is a static project, so tests are manual-oriented:
-
-- Validate HTML: https://validator.w3.org/
-- Lint CSS: use stylelint locally or in your CI for larger projects.
-
 ## Contributing
 
-Contributions are welcome. A simple workflow:
+**Contributions are welcome. A simple workflow:**
 
 1. Fork the repository
 2. Create a feature branch: `git checkout -b feat/your-change`
 3. Make your changes and commit with clear messages
 4. Push and open a Pull Request
 
-If you're proposing a major change, open an issue first to discuss the plan.
+**If you're proposing a major change, open an issue first to discuss the plan.**
 
-## License
+### License
 
-This project includes a `LICENSE` file. By default this repository contains an MIT-style license. See `LICENSE` for details.
-
-## Contact
-
-Author: md-abu-kayser
-
-GitHub: https://github.com/md-abu-kayser/riterio-studio
-
-If you'd like a custom version of this template or help deploying it, open an issue or reach out via GitHub.
+- This project is licensed under the terms of the **[MIT License](./LICENSE)**.
+- You may replace or update the license as needed for client or proprietary projects.
 
 ---
 
-Thank you for checking out Riterio Studio - simple, fast, and ready to be customized into something great.
+### Contact and Maintainer
+
+**Maintainer:** [md-abu-kayser](https://github.com/md-abu-kayser)  
+**Name:** Md Abu Kayser - Full-Stack Engineer
+
+- **GitHub:** [github.com/abu.kayser-official](https://github.com/md-abu-kayser)
+- **Email:** [abu.kayser.official@gmail.com](mailto:abu.kayser.official@gmail.com)
+- **Project:** _LuxeVista-Interiors-Template_
+
+If you’d like this README tailored for a specific purpose - such as **hiring managers**, **open-source contributors**, or **client deliverables** - feel free to request a custom tone or format.
+
+---
+
+**Thank you** for checking out **LuxeVista Interiors | Premium Design Excellence** - simple, fast, and ready to be customized into something great.
+
+---
