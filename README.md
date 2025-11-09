@@ -1,40 +1,33 @@
 # LuxeVista Interiors | Premium Design Excellence
 
-Professional, responsive static website template — lightweight, accessible, and easy to deploy.
-
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Top Language](https://img.shields.io/github/languages/top/md-abu-kayser/riterio-studio.svg)](https://github.com/md-abu-kayser/riterio-studio)
-
-Live demo: (Add your demo URL here)
+A clean, fully responsive static website template crafted with HTML5, CSS3, Tailwind CSS and daisyUI. Perfect for showcasing interior design studios, creative portfolios, or modern business landing pages.Lightweight, accessible, and optimized for fast deployment on GitHub Pages, Netlify, or Vercel. Includes modular structure, organized assets, and clear documentation for easy customization and scaling.
 
 ---
 
 ## Table of contents
 
-- Project overview
-- Features
-- Tech stack
-- Quick start
+- **Project overview**
+- **Features**
+- **Tech stack**
+- **Quick start**
   - Run locally
-  - Edit & extend
-- Deployment
+  - Edit and extend
+- **Deployment**
   - GitHub Pages
   - Netlify
   - Vercel
-- Project structure
-- Accessibility & SEO
-- Performance tips
-- Contributing
-- License
-- Contact
+- **Project structure**
+- **Accessibility and SEO**
+- **Performance tips**
+- **Contributing**
+- **License**
+- **Contact**
 
 ---
 
 ## Project overview
 
 LuxeVista Interiors | Premium Design Excellence is a minimal, well-structured static website template. It ships with a single-file entry point (`index.html`), a stylesheet in `css/style.css`, and an `assets/` folder for images and other static resources. The layout is intentionally simple so you can adapt it quickly for portfolios, landing pages, or prototypes.
-
-This repository is optimized for clarity, accessibility, and easy deployment to GitHub Pages, Netlify, or Vercel.
 
 ## Features
 
@@ -49,7 +42,7 @@ This repository is optimized for clarity, accessibility, and easy deployment to 
 
 - HTML5
 - CSS3 (plain CSS; no frameworks so you keep full control)
-- No build step required — purely static
+- No build step required - purely static
 
 ## Quick start
 
@@ -74,11 +67,11 @@ python -m http.server 8000
 # Or use VS Code: install the Live Server extension and click "Go Live"
 ```
 
-### Edit & extend
+### Edit and extend
 
-- HTML: `index.html` — edit the page structure and content.
-- CSS: `css/style.css` — modify or extend styles.
-- Assets: `assets/` — put images, icons, and other static files here.
+- HTML: `index.html` - edit the page structure and content.
+- CSS: `css/style.css` - modify or extend styles.
+- Assets: `assets/` - put images, icons, and other static files here.
 
 Tips:
 
@@ -87,24 +80,24 @@ Tips:
 
 ## Deployment
 
-Pick the provider you prefer — all work great with this static site.
+Pick the provider you prefer - all work great with this static site.
 
 ### GitHub Pages (quick)
 
 1. Push your repository to GitHub.
 2. In the repository settings → Pages, set Source to `main` branch and root (`/`).
-3. Save — your site will be available at `https://<your-username>.github.io/<repo-name>/`.
+3. Save - your site will be available at `https://<your-username>.github.io/<repo-name>/`.
 
 Notes: If your site is in the repository root and `index.html` exists, GitHub Pages will serve it automatically.
 
-### Netlify (drag & drop or git)
+### Netlify (drag and drop or git)
 
 - Drag-and-drop: Zip the repo root and drop it into the Netlify dashboard Sites → New site from Git → Deploy site (drag-and-drop).
 - Git-backed: Connect the GitHub repo in Netlify, select the branch, and deploy (no build command required).
 
 ### Vercel
 
-- Create a new project, import your GitHub repository, and set the root directory. Since this is a static site, you can keep build settings empty — Vercel will detect static files.
+- Create a new project, import your GitHub repository, and set the root directory. Since this is a static site, you can keep build settings empty - Vercel will detect static files.
 
 ## Project structure
 
@@ -118,7 +111,7 @@ Notes: If your site is in the repository root and `index.html` exists, GitHub Pa
 	 └─ style.css         # Main stylesheet
 ```
 
-## Accessibility & SEO
+## Accessibility and SEO
 
 - Use semantic elements (`header`, `main`, `nav`, `footer`, `section`, `article`).
 - Provide `alt` attributes for all images in `assets/`.
@@ -148,7 +141,7 @@ Example meta snippet for `index.html`:
 - Use responsive images (`srcset`) for different viewport sizes.
 - Remove unused CSS rules and keep selectors specific but minimal.
 
-## Tests & quality
+## Tests and quality
 
 This is a static project, so tests are manual-oriented:
 
@@ -180,4 +173,4 @@ If you'd like a custom version of this template or help deploying it, open an is
 
 ---
 
-Thank you for checking out Riterio Studio — simple, fast, and ready to be customized into something great.
+Thank you for checking out Riterio Studio - simple, fast, and ready to be customized into something great.
