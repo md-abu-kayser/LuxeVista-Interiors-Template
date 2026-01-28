@@ -52,7 +52,6 @@ These steps will get the project running locally in seconds.
 
 ```powershell
 git clone https://github.com/md-abu-kayser/LuxeVista-Interiors-Template.git
-
 ```
 
 ```
@@ -148,12 +147,12 @@ README.md
 
 ### Contact and Maintainer
 
-**Maintainer:** [md-abu-kayser](https://github.com/md-abu-kayser)  
 **Name:** Md Abu Kayser - Full-Stack Engineer
 
+- **Project:** _LuxeVista-Interiors-Template_
+  **Maintainer:** [md-abu-kayser](https://github.com/md-abu-kayser)
 - **GitHub:** [github.com/abu.kayser-official](https://github.com/md-abu-kayser)
 - **Email:** [abu.kayser.official@gmail.com](mailto:abu.kayser.official@gmail.com)
-- **Project:** _LuxeVista-Interiors-Template_
 
 If you’d like this README tailored for a specific purpose - such as **hiring managers**, **open-source contributors**, or **client deliverables** - feel free to request a custom tone or format.
 
